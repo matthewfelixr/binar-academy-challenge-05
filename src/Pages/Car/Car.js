@@ -131,7 +131,6 @@ const Car = (props) => {
                                         </div>
                                     </div>
                                     <button className='btn button-right-details-container'
-                                            disabled={carCart  === car.id}
                                             onClick={() =>
                                               dispatch(
                                                 carCartSlice.actions.addCarToCart({ id: car.id })
